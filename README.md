@@ -38,3 +38,7 @@ to provide users with a comprehensive and user-friendly weather experience. Here
    The weather report provides a wealth of information beyond just the temperature. 
    It includes additional details such as location,Date,Day,Month,Temperature and weather type
    enabling users to gain a comprehensive understanding of the current weather conditions.
+
+   # Screenshots :
+![Main_menu](https://github.com/SURAJKUMAR730/Weather_Forecast/assets/106768289/0e20b509-182d-4bfb-b488-72ecf086a809)
+![About_project](https://github.com/SURAJKUMAR730/Weather_Forecast/assets/106768289/a18c6d62-8ec2-40df-ab66-21cf199ed185)
