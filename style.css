@@ -27,28 +27,24 @@ html{
 html::-webkit-scrollbar{
     width:1.4rem;
 }
-
 html::-webkit-scrollbar-track{
     background:#222;
 }
-
 html::-webkit-scrollbar-thumb{
     background:var(--yellow);
 }
-
 body{
     background:#111;
     overflow-x: hidden;
     padding-left: 35rem;
 }
-
 section{
     min-height: 100vh;
     padding:1rem;
 }
 
+/*   Button CSS PART Start here */
 .btn{
-   
     padding:.7rem 3rem;
     background:#333;
     color:#fff;
@@ -58,7 +54,6 @@ section{
     border-radius: 5rem;
     margin: 15px; /* Adjust this value to set the desired gap  between 2 button*/
 }
-
 .btn i{
     padding:0 .5rem;
     font-size: 1.8rem;
@@ -66,6 +61,10 @@ section{
 .btn:hover{
     background:var(--yellow);
 }
+
+/*   Button CSS PART End here */
+
+/*   Heading CSS PART Start here */
 
 .heading{
     text-align: center;
@@ -75,11 +74,12 @@ section{
     border-bottom: .1rem solid #fff4;
     color:#fff;
 }
-
 .heading span{
     color:var(--yellow);
 }
+/*   Heading CSS PART End here */
 
+/*   Header CSS PART start here */
 header{
     position: fixed;
     top:0; left:0;
@@ -102,18 +102,14 @@ header .user img {
     margin-bottom: 1rem;
     border: .4rem solid white; /* Update the color to white */
 }
-
-
 header .user .name{
     font-size: 3.5rem;
     color:#fff;
 }
-
 header .user .post{
     font-size: 2rem;
     color:#eee;
 }
-
 header .navbar{
     width:100%;
 }
@@ -122,8 +118,6 @@ header .navbar ul{
     list-style: none;
     padding:1rem 3rem;
 }
-
-
 header .navbar ul li a{
     display: block;
     padding:1rem;
@@ -133,11 +127,13 @@ header .navbar ul li a{
     font-size: 2rem;
     border-radius: 5rem;
 }
-
 header .navbar ul li a:hover{
     background:var(--yellow);
 }
 
+/*   Header CSS PART End here */
+
+/*   Menu CSS PART Start here */
 #menu{
     position: fixed;
     top:2rem; right:2rem;
@@ -149,6 +145,8 @@ header .navbar ul li a:hover{
     z-index: 1000;
     display: none;
 }
+
+/*   Home CSS PART Start here */
 
 .home{
     display: flex;
@@ -179,10 +177,9 @@ header .navbar ul li a:hover{
     color:#eee;
     padding: 1rem 0;
 }
+/*   Home CSS PART End here */
 
-
-/*   ABOUT CSS PART */
-
+/*   About Project CSS PART Start here */
 
 .about .row{
     display: flex;
@@ -190,9 +187,7 @@ header .navbar ul li a:hover{
     justify-content: center;
     flex-wrap: wrap;
     padding:1rem 0;
-    
 }
-
 .about .row .info{
     flex:1 1 48rem;
     padding:2rem 1rem;
@@ -206,19 +201,16 @@ header .navbar ul li a:hover{
   margin-left: 700px;
    
 }
-
 .about .row .info h3{
     font-size: 3rem;
     color:var(--yellow);
     padding:1rem 0;
     font-weight: normal;
 }
-
 .about .row .info h3 span{
     color:#f9ca24;;
     padding:0 .5rem;
 }
-
 .list1 {
     margin-left: 5em;
     font-size: 2rem;
@@ -234,13 +226,13 @@ header .navbar ul li a:hover{
     color: white;
     font-size: 2rem;
  }
- 
+ /*   About Project CSS PART End here */
 
 
 
 /*   Location based CSS PART STARTS HERE  */
 
-.education .box-container{
+.Location_based .box-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -248,7 +240,7 @@ header .navbar ul li a:hover{
     padding:2rem 0;
 }
 
-.education .box-container .box{
+.Location_based .box-container .box{
     height: 40rem;
     width:50rem;
     border-radius: 1rem;
@@ -257,32 +249,29 @@ header .navbar ul li a:hover{
     cursor: pointer;
 }
 
-.education .box-container .box img{
-    
+.Location_based .box-container .box img{
     height:100%;
     width:100%;
     object-fit: cover;
     border-radius: 30px 30px;
     border:0.05rem solid rgb(230, 141, 9);
 }
-
-.education .box-container .box:hover img{
+.Location_based .box-container .box:hover img{
     transform: scale(1.2);
 }
 
-/*   Multiday CSS PART */
+/*   Location based CSS PART ENDS HERE  */
 
+/*   Multiday CSS Part Starts here  */
 
-
-.accounts .box-container{
+.Multi-day .box-container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding:2rem 0;
 }
-
-.accounts .box-container .box{
+.Multi-day .box-container .box{
     height: 40rem;
     width:50rem;
     border-radius: 1rem;
@@ -291,7 +280,7 @@ header .navbar ul li a:hover{
     cursor: pointer;
 }
 
-.accounts .box-container .box img{
+.Multi-day .box-container .box img{
     
     height:100%;
     width:100%;
@@ -299,8 +288,7 @@ header .navbar ul li a:hover{
     border-radius: 30px 30px;
     border:0.05rem solid rgb(230, 141, 9);
 }
-
-.accounts .box-container .box:hover img{
+.Multi-day .box-container .box:hover img{
     transform: scale(1.2);
 }
 .top{
@@ -309,6 +297,8 @@ header .navbar ul li a:hover{
     z-index: 100;
     display: none;
 }
+/*   Multiday CSS Part End here  */
+
 
 /* media queries  */
 
@@ -367,17 +357,14 @@ header .navbar ul li a:hover{
         width: 100%;
     }
  
-    .education .box-container .box{
+    .Location_based.box-container .box{
         width:100%;
     }
 
-    .accounts .box-container .box{
+    .Multi-day.box-container .box{
         width:100%;
     }
 
-    .projects .row form{
-        margin:3rem 0;
-    }
 
  }
   /* media queries  */
@@ -436,16 +423,10 @@ header .navbar ul li a:hover{
         width: 100%;
     }
  
-    .education .box-container .box{
+    .Location_based .box-container .box{
         width:100%;
     }
 
-    .portfolio .box-container .box{
-        width:100%;
-    }
-
-    .contact .row form{
-        margin:3rem 0;
-    }
+    
 
  }
